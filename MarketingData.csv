@@ -199,3 +199,24 @@
 212.4,11.16,7.68,15.36
 340.32,50.4,79.44,30.6
 278.52,10.32,10.44,16.08
+
+# Plot Sales vs YouTube
+plt.scatter(data['YouTube'], data['Sales'])
+plt.xlabel('YouTube')
+plt.ylabel('Sales')
+plt.title('Sales vs YouTube')
+plt.show()
+
+# Plot Sales vs Facebook
+plt.scatter(data['Facebook'], data['Sales'])
+plt.xlabel('Facebook')
+plt.ylabel('Sales')
+plt.title('Sales vs Facebook')
+plt.show()
+
+# Plot Sales vs Newspaper
+plt.scatter(data['Newspaper'], data['Sales'])
+plt.xlabel('Newspaper')
+plt.ylabel('Sales')
+plt.title('Sales vs Newspaper')
+plt.show()
